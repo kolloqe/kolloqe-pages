@@ -70,7 +70,7 @@
     <!-- header -->
     <header class="header fixed-top">
       <div class="px-3 py-2 text-bg-dark">
-        <div class="headercontainer">
+        <div class="container headercontainer">
           <div
             class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
           >
@@ -78,51 +78,41 @@
               href="#"
               class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none"
             >
-              <img src="res\images\kolloqe_steel.png" width="60px" class="mt-1"/>
+              <img
+                src="res\images\kolloqe_steel.png"
+                width="60px"
+                class="mt-1"
+              />
             </a>
 
             <ul
               class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0"
             >
-              <li>
-                <a href="#kolloqe" class="nav-link nav-link-active">
+              <li class="nav-link-li nav-link-active">
+                <a href="#kolloqe" class="nav-link">
                   Kolloqe
                 </a>
               </li>
-              <li>
-                <a href="#researchh" class="nav-link">
-                  Research
-                </a>
+              <li class="nav-link-li">
+                <a href="#research" class="nav-link"> Research </a>
               </li>
-              <li>
-                <a href="#milestones" class="nav-link">
-                  Milestones
-                </a>
+              <li class="nav-link-li">
+                <a href="#milestones" class="nav-link"> Milestones </a>
               </li>
-              <li>
-                <a href="#" class="nav-link">
-                  Solution
-                </a>
+              <li class="nav-link-li">
+                <a href="#solution" class="nav-link"> Solution </a>
               </li>
-              <li>
-                <a href="#" class="nav-link">
-                  Docs
-                </a>
+              <li class="nav-link-li">
+                <a href="#docs" class="nav-link"> Docs </a>
               </li>
-              <li>
-                <a href="#" class="nav-link">
-                  Presentations
-                </a>
+              <li class="nav-link-li">
+                <a href="#presentation" class="nav-link"> Presentations </a>
               </li>
-              <li>
-                <a href="#" class="nav-link">
-                  Team
-                </a>
+              <li class="nav-link-li">
+                <a href="#team" class="nav-link"> Team </a>
               </li>
-              <li>
-                <a href="#" class="nav-link">
-                  Contact
-                </a>
+              <li class="nav-link-li">
+                <a href="#contact" class="nav-link"> Contact </a>
               </li>
             </ul>
           </div>
@@ -131,32 +121,31 @@
     </header>
 
     <!-- main content -->
-    <main class="main">
-      <div id="#kolloqe">
+    <main class="main container">
+      <div id="kolloqe" class="mainsection">
         <div class="dummydiv container-bg material-red"></div>
       </div>
-      <div id="#research">
+      <div id="research" class="mainsection">
         <div class="dummydiv container-bg material-green"></div>
       </div>
-      <div id="#milestones">
+      <div id="milestones" class="mainsection">
         <div class="dummydiv container-bg material-purple"></div>
       </div>
-      <div id="#solution">
+      <div id="solution" class="mainsection">
         <div class="dummydiv container-bg material-pink"></div>
       </div>
-      <div id="#docs">
+      <div id="docs" class="mainsection">
         <div class="dummydiv container-bg material-yellow"></div>
       </div>
-      <div id="#presentation">
+      <div id="presentation" class="mainsection">
         <div class="dummydiv container-bg material-orange"></div>
       </div>
-      <div id="#team">
+      <div id="team" class="mainsection">
         <div class="dummydiv container-bg material-smoke"></div>
       </div>
-      <div id="#contact">
+      <div id="contact" class="mainsection">
         <div class="dummydiv container-bg material-almond"></div>
       </div>
-
 
       <p><a href="objectives.html">obj</a></p>
       <p>
@@ -173,15 +162,31 @@
           >DOWNload</a
         >
       </p>
+
+      <!-- scroll to top -->
+      <div class="scrolltop-wrap">
+        <a href="#" role="button" aria-label="Scroll to top">
+          <svg
+            height="48"
+            viewBox="0 0 48 48"
+            width="48"
+            height="48px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path id="scrolltop-bg" d="M0 0h48v48h-48z"></path>
+            <path
+              id="scrolltop-arrow"
+              d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"
+            ></path>
+          </svg>
+        </a>
+      </div>
     </main>
-    <div id="#researchh">
-      <div class="dummydiv container-bg material-green"></div>
-    </div>
 
     <!-- footer -->
     <div class="containerfooter">
       <footer
-        class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-auto w-100"
+        class="container d-flex flex-wrap justify-content-between align-items-center p-3 mt-auto w-100"
       >
         <p class="col-md-4 mb-0">© 2022 Kolloqe</p>
 
@@ -221,6 +226,7 @@
       type="text/javascript"
       src="res\scripts\jquery-3.6.0.min.js"
     ></script>
+    <script type="text/javascript" src="res\scripts\kolloqe.js"></script>
     <!-- <script type='text/javascript' src='res\scripts\kbi-2.0.2.js'></script> -->
   </body>
 </html>
