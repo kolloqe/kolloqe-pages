@@ -2,7 +2,7 @@ $(document).ready(function () {
   // autoset active nav on scroll
   const sections = document.querySelectorAll(".mainsection");
   const navLi = document.querySelectorAll("nav .navbar-collapse ul li");
-  console.log(sections);
+  
   window.addEventListener("scroll", () => {
     let current = "kolloqe";
     sections.forEach((section) => {

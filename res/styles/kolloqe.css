@@ -57,7 +57,7 @@ kbd {
 }
 
 .header .nav-link-active .nav-link{
-    background-color: #37474F !important;
+    background-color: #353935 !important;
     color: #66BB6A !important;
 }
 
@@ -165,6 +165,18 @@ kbd {
     .scrolltop-wrap {
       display: none !important;
     }
+  }
+
+  .fs14 {
+    font-size: 14px !important;
+  }
+
+  .border-bottom-smoke {
+    border-bottom: 2px solid rgb(106, 106, 106) !important;
+  }
+
+  .border-bottom-thin-smoke {
+    border-bottom: 1px solid rgb(106, 106, 106) !important;
   }
 
 /* scrollbar */
