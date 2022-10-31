@@ -17,6 +17,47 @@ a {
     color: #C5E1A5 !important;
 }
 
+.header {
+    background-color: #212121;
+}
+
+.header .nav-link {
+    /* background-color: #90A4AE !important; */
+    color: white !important;
+    border-radius: 4px;
+    margin: 0 4px;
+    padding: 4px 6px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.header .nav-link:hover {
+    color: #90A4AE !important;
+}
+
+.header .nav-link-active {
+    color: #66BB6A !important;
+}
+
+.main {
+    min-height: 89.9vh;
+    padding-top: 100px;
+}
+
+.containerfooter {
+  background-color: #212121 !important;
+  color: #CFD8DC !important;
+}
+
+.app-text-muted {
+    color: #CFD8DC !important;
+}
+
+.dummydiv {
+    background-color: #03A9F4 !important;
+    height: 50vh;
+}
+
 /* scrollbar */
 /* Hide scrollbar for Chrome, Safari and Opera */
 .suggestions::-webkit-scrollbar {
