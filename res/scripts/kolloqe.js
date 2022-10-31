@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // handling navigation
-  $(".nav-link-li").click(function (){
+  $(".nav-item").click(function (){
     $(this).addClass("nav-link-active").siblings().removeClass("nav-link-active");
   });
 });

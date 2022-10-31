@@ -12,20 +12,21 @@ body, button {
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif !important;
-    background: #263238 !important;
-    color: #B0BEC5 !important;
+    background: #ececec !important;
+    color: #333333 !important;
 }
 
 a {
     text-decoration: none !important;
-    color: #C5E1A5 !important;
+    color: #4CAF50 !important;
 }
 
 .header {
-    background-color: #212121;
+    background-color: #212121 !important;
+    color: #ececec !important;
 }
 
-.header .nav-link-li .nav-link {
+.header .nav-item .nav-link {
     /* background-color: #90A4AE !important; */
     color: white !important;
     border-radius: 4px;
@@ -35,7 +36,7 @@ a {
     text-transform: capitalize;
 }
 
-.header .nav-link-li .nav-link:hover {
+.header .nav-item .nav-link:hover {
     color: #90A4AE !important;
 }
 
@@ -43,13 +44,25 @@ a {
     color: #66BB6A !important;
 }
 
+.nav-dropdown {
+    background-color: #263238 !important;
+}
+
+.nav-dropdown a {
+    color: #E0E0E0 !important;
+}
+
+.nav-dropdown a:hover {
+    background-color: #191e20 !important;
+}
+
 .main {
     min-height: 89.9vh;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .mainsection {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 90px;
 }
 
 .containerfooter {
