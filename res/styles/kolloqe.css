@@ -1293,6 +1293,10 @@ input[type=checkbox] {
     color: #43A047 !important;
 }
 
+.material-light-green-f {
+    color: #F0F4C3 !important;
+}
+
 .material-purple {
     background-color: #9C27B0 !important;
 }
