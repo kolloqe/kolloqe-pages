@@ -7,11 +7,13 @@ $(document).ready(function () {
     let current = "kolloqe";
     sections.forEach((section) => {
       const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
-      if (scrollY >= sectionTop - sectionHeight / 3) {
+      const distanceToTop = $(window).scrollTop();
+      if (91 >= sectionTop - distanceToTop) {
         current = section.getAttribute("id");
       }
     });
+
+    console.log(current);
 
     navLi.forEach((li) => {
       li.classList.remove("nav-link-active");
