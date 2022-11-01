@@ -73,10 +73,15 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container headercontainer">
           <a class="navbar-brand" href="#"
-            ><img src="res\images\kolloqe_steel.png" width="60px" class="mt-1"
+            ><img
+              src="res\images\kolloqe_steel.png"
+              width="60px"
+              focusable="true"
+              draggable="false"
+              class="pe-none user-select-none mt-1"
           /></a>
-          <button
-            class="navbar-toggler"
+          <a
+            class="navbar-toggler justify-content-center align-items-center"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -84,8 +89,14 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <img
+              src="res\images\icons\menu2.png"
+              width="30px"
+              focusable="true"
+              draggable="false"
+              class="pe-none user-select-none"
+            />
+          </a>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item nav-link-active kolloqe">
@@ -223,7 +234,8 @@
               width="150"
               height="150"
               focusable="false"
-              class=""
+              draggable="false"
+              class="pe-none user-select-none"
             />
             <!-- disabled for now -->
             <!-- <img
@@ -245,6 +257,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -258,6 +272,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -274,6 +290,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -293,6 +311,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -306,6 +326,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -322,6 +344,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -341,6 +365,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -354,6 +380,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -370,6 +398,8 @@
               width="32"
               height="32"
               focusable="false"
+              draggable="false"
+              class="pe-none user-select-none"
             />
 
             <p class="pb-3 mb-0 small lh-sm border-bottom">
@@ -400,7 +430,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://www.python.org/" target="_blank"><h3 class="fs-6">Python</h3></a>
+              <a href="https://www.python.org/" target="_blank"
+                ><h3 class="fs-6">Python</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Python 3.8 was used as the primary backend language to design
                 and implement main Kolloqe CLI interface and other open-source
@@ -420,7 +452,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://rasa.com/" target="_blank"><h3 class="fs-6">Rasa Open Source</h3></a>
+              <a href="https://rasa.com/" target="_blank"
+                ><h3 class="fs-6">Rasa Open Source</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Rasa Open Source was employed to integrate with Kolloqe for
                 conversational AI and NLP tool development and testing tasks
@@ -439,7 +473,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://pypi.org/project/Flask/" target="_blank"><h3 class="fs-6">Flask</h3></a>
+              <a href="https://pypi.org/project/Flask/" target="_blank"
+                ><h3 class="fs-6">Flask</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Flask was used to develop the primary API endpoints and
                 microservices of Kolloqe. Flask servers were wrapped using
@@ -465,7 +501,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://reactjs.org/" target="_blank"><h3 class="fs-6">React JS</h3></a>
+              <a href="https://reactjs.org/" target="_blank"
+                ><h3 class="fs-6">React JS</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 React was utilized as the primary frontend framework and the
                 build files were integrated with the Flask backend seamlessly
@@ -484,7 +522,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://mui.com/" target="_blank"><h3 class="fs-6">MUI Components Library</h3></a>
+              <a href="https://mui.com/" target="_blank"
+                ><h3 class="fs-6">MUI Components Library</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 MUI React component library was utilized to develop Kolloqe
                 developer console User Interfaces
@@ -503,7 +543,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://socket.io/" target="_blank"><h3 class="fs-6">Socket.io</h3></a>
+              <a href="https://socket.io/" target="_blank"
+                ><h3 class="fs-6">Socket.io</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Socket.io was utilized to implement the Kolloqe chatwidget that
                 can establish a socket connection with Rasa socket.io servers
@@ -527,7 +569,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://www.docker.com/" target="_blank"><h3 class="fs-6">Docker</h3></a>
+              <a href="https://www.docker.com/" target="_blank"
+                ><h3 class="fs-6">Docker</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Docker was utilized to containerize both Kolloqe and Rasa
                 conversational AIs created using Kolloqe. Docker-compose was
@@ -547,7 +591,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://www.nginx.com/" target="_blank"><h3 class="fs-6">NGINX</h3></a>
+              <a href="https://www.nginx.com/" target="_blank"
+                ><h3 class="fs-6">NGINX</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 NGINX was utilized to implement load balancing and secure
                 reverse-proxies required for Kolloqe deployment
@@ -566,7 +612,9 @@
                   class="pe-none user-select-none p-2"
                 />
               </div>
-              <a href="https://azure.microsoft.com/en-us/" target="_blank"><h3 class="fs-6">Azure</h3></a>
+              <a href="https://azure.microsoft.com/en-us/" target="_blank"
+                ><h3 class="fs-6">Azure</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 An azure VM instance was utilized to deploy the demo version of
                 Kolloqe
@@ -585,7 +633,9 @@
                   class="pe-none user-select-none p-2"
                 />
               </div>
-              <a href="https://www.namecheap.com/" target="_blank"><h3 class="fs-6">Namecheap</h3></a>
+              <a href="https://www.namecheap.com/" target="_blank"
+                ><h3 class="fs-6">Namecheap</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Namecheap was utilzed to manage the
                 <span><code class="material-orange-f">kolloqe.com</code></span>
@@ -613,7 +663,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://about.gitlab.com/" target="_blank"><h3 class="fs-6">GitLab</h3></a>
+              <a href="https://about.gitlab.com/" target="_blank"
+                ><h3 class="fs-6">GitLab</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 GitLab was utilized as the primary source-code management tool
                 throughout the research duration
@@ -632,7 +684,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://github.com/" target="_blank"><h3 class="fs-6">GitHub</h3></a>
+              <a href="https://github.com/" target="_blank"
+                ><h3 class="fs-6">GitHub</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 GitHub was utilized for the source-code and release management
                 of open-source tools developed within the research duration
@@ -651,7 +705,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://pypi.org/" target="_blank"><h3 class="fs-6">PyPI</h3></a>
+              <a href="https://pypi.org/" target="_blank"
+                ><h3 class="fs-6">PyPI</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Four modular Python packages were released to the Python Package
                 Index as open-source tools:
@@ -682,7 +738,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://www.npmjs.com/" target="_blank"><h3 class="fs-6">NPM</h3></a>
+              <a href="https://www.npmjs.com/" target="_blank"
+                ><h3 class="fs-6">NPM</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Two modular React components were released to Node Package
                 Manager as open-source contributions:
@@ -718,7 +776,9 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://snyk.io/" target="_blank"><h3 class="fs-6">Snyk</h3></a>
+              <a href="https://snyk.io/" target="_blank"
+                ><h3 class="fs-6">Snyk</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Snyk was employed to continuously test for security
                 vulnerabilities and dependancy vulnerabilities in open-source
@@ -733,7 +793,7 @@
         <div class="mb-3 p-3 material-onyx rounded shadow-sm">
           <h6 class="fs-5 pb-2 mb-0 text-white">Documents</h6>
           <div class="subsection" id="rd">
-            <p class="fs14 m-0 p-0 material-smoke-f">
+            <p class="fs14 m-0 p-0 mt-2 material-smoke-f">
               <span class="material-onyx p-1 rounded"
                 >Registration Documents</span
               >
@@ -754,7 +814,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -781,7 +843,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -808,7 +872,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -835,6 +901,7 @@
                 data-toast-url="https://github.com/kolloqe/kolloqe-pages-resources/tree/main/1_proposal/report"
                 data-toast-new-window="true"
                 data-toast-type="warning"
+                data-toast-duration="5000"
                 aria-current="true"
               >
                 <img
@@ -842,7 +909,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -869,7 +938,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -898,6 +969,7 @@
                 data-toast-url="https://github.com/kolloqe/kolloqe-pages-resources/tree/main/3_status_doc_1"
                 data-toast-new-window="true"
                 data-toast-type="warning"
+                data-toast-duration="5000"
                 aria-current="true"
               >
                 <img
@@ -905,7 +977,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -942,7 +1016,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -977,7 +1053,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -986,7 +1064,7 @@
                       Click here to download a copy of the research paper.
                       Please note that you're not authorized to extract, modify,
                       publish, republish, capture, or record the content of the
-                      paper without a valid concent from the oroginal authors
+                      paper without a valid consent from the oroginal authors
                     </p>
                   </div>
                   <small class="opacity-50 text-nowrap">??-??-2022</small>
@@ -1017,7 +1095,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -1036,6 +1116,7 @@
                 data-toast-url="https://github.com/kolloqe/kolloqe-pages-resources/raw/main/6_progress_presentation_2/poster/2022-056_poster_updated.jpg"
                 data-toast-new-window="true"
                 data-toast-type="warning"
+                data-toast-duration="5000"
                 aria-current="true"
               >
                 <img
@@ -1043,7 +1124,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -1072,6 +1155,7 @@
                 data-toast-url="https://github.com/kolloqe/kolloqe-pages-resources/tree/main/7_final_eval/reports"
                 data-toast-new-window="true"
                 data-toast-type="warning"
+                data-toast-duration="5000"
                 aria-current="true"
               >
                 <img
@@ -1079,7 +1163,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -1105,7 +1191,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -1141,7 +1229,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -1175,7 +1265,9 @@
                   alt="twbs"
                   width="40"
                   height="40"
-                  class="flex-shrink-0"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
                 />
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div>
@@ -1212,7 +1304,11 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://lk.linkedin.com/in/lakmini-abeywardhana-65283aa9" target="_blank"><h3 class="fs-6">Dr. Lakmini Abeywardhana</h3></a>
+              <a
+                href="https://lk.linkedin.com/in/lakmini-abeywardhana-65283aa9"
+                target="_blank"
+                ><h3 class="fs-6">Dr. Lakmini Abeywardhana</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Department of Information Technology
               </p>
@@ -1233,7 +1329,11 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://lk.linkedin.com/in/dinuka-wijendra-62835a78" target="_blank"><h3 class="fs-6">Ms. Dinuka Wijendra</h3></a>
+              <a
+                href="https://lk.linkedin.com/in/dinuka-wijendra-62835a78"
+                target="_blank"
+                ><h3 class="fs-6">Ms. Dinuka Wijendra</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Department of Information Technology
               </p>
@@ -1259,7 +1359,11 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://lk.linkedin.com/in/isharadissanayake" target="_blank"><h3 class="fs-6">Ishara Dissanayake</h3></a>
+              <a
+                href="https://lk.linkedin.com/in/isharadissanayake"
+                target="_blank"
+                ><h3 class="fs-6">Ishara Dissanayake</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Department of Information Technology
               </p>
@@ -1280,7 +1384,11 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://lk.linkedin.com/in/shamikh-hameed-80104b199" target="_blank"><h3 class="fs-6">Shamikh Hameed</h3></a>
+              <a
+                href="https://lk.linkedin.com/in/shamikh-hameed-80104b199"
+                target="_blank"
+                ><h3 class="fs-6">Shamikh Hameed</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Department of Information Technology
               </p>
@@ -1301,7 +1409,11 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://lk.linkedin.com/in/akalanka-sakalasooriya" target="_blank"><h3 class="fs-6">Akalanka Sakalasooriya</h3></a>
+              <a
+                href="https://lk.linkedin.com/in/akalanka-sakalasooriya"
+                target="_blank"
+                ><h3 class="fs-6">Akalanka Sakalasooriya</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Department of Information Technology
               </p>
@@ -1322,7 +1434,11 @@
                   class="pe-none user-select-none"
                 />
               </div>
-              <a href="https://lk.linkedin.com/in/dinushi-jayasinghe-80a14117b" target="_blank"><h3 class="fs-6">Dinushi Jayasinghe</h3></a>
+              <a
+                href="https://lk.linkedin.com/in/dinushi-jayasinghe-80a14117b"
+                target="_blank"
+                ><h3 class="fs-6">Dinushi Jayasinghe</h3></a
+              >
               <p class="fs14 m-0 p-0 material-smoke-f">
                 Department of Information Technology
               </p>
@@ -1421,16 +1537,20 @@
         <div
           class="row d-flex flex-wrap justify-content-between align-items-center p-3 px-0 m-0 mt-auto w-100"
         >
-          <p class="col-md-4 mb-0 material-smoke-f">© 2022 Kolloqe</p>
+          <p class="col-md-4 mb-0 material-smoke-f d-none d-md-flex">
+            © 2022 Kolloqe
+          </p>
 
           <a
             href="#"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+            class="col-md-4 d-flex align-items-center justify-content-sm-start justify-content-md-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
           >
             <img src="res\images\kolloqe_steel.png" width="40px" />
           </a>
 
-          <ul class="nav col-md-4 justify-content-end me-0 pe-0">
+          <ul
+            class="nav col-md-4 justify-content-end me-0 pe-0 d-none d-md-flex"
+          >
             <li class="nav-item">
               <a href="#" class="nav-link px-2 material-smoke-f">Back to Top</a>
             </li>
@@ -1454,7 +1574,7 @@
         </div>
         <!-- <hr class="material-smoke" /> -->
         <div class="row px-3">
-          <div class="mb-3 p-3">
+          <div class="mb-0 p-3 pb-0">
             <p class="pb-2 mb-0 material-smoke-f font-monospace">Credits</p>
             <div class="d-flex text-muted pt-3">
               <img
@@ -1481,6 +1601,53 @@
                   >Image icons created by Good Ware - Flaticon</a
                 >
                 <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row px-3 w-75" id="copyright">
+          <div class="mb-3 p-3">
+            <p class="pb-2 mb-0 material-smoke-f font-monospace">
+              Copyright Notice
+            </p>
+            <div class="d-flex text-muted pt-3">
+              <img
+                src="res\images\icons\copyr1.png"
+                width="32"
+                height="32"
+                focusable="false"
+                class="me-2"
+              />
+
+              <p class="material-smoke-f m-0 p-0 small lh-sm">
+                <span class="pb-3 mb-0">
+                  <strong class="d-block">Logos and Trademarks</strong>
+                </span>
+                <span class="pb-3 mb-0">
+                  All logos and trademarks of propriotory or open-source tools
+                  utilized within this website are a property of their original
+                  owners. The authors of kolloqe assume no copyright over them
+                  and have used them for educational purposes only.
+                </span>
+                <br />
+                <br />
+                <span class="pb-3 mb-0">
+                  All logos and trademarks of Kolloqe cannot be utilized without
+                  a valid consent obtained from the original owners.
+                </span>
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3" style="padding-left: 40px">
+              <p class="material-smoke-f m-0 p-0 small lh-sm">
+                <span class="pb-3 mb-0">
+                  <strong class="d-block">Research Paper</strong>
+                </span>
+                <span class="pb-3 mb-0">
+                  The research paper has already been submitted to the ICAC 2022
+                  conference, thus, <code class="material-red-f">unauthorized</code> modifications, alterations,
+                  information extraction, publishing, and republishing are
+                  prohibited.
+                </span>
               </p>
             </div>
           </div>

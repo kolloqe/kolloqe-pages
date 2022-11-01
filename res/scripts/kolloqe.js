@@ -1,4 +1,22 @@
 $(document).ready(function () {
+  // consent notice
+  if (window.visualViewport.height / 2 > $(document).scrollTop()) {
+    Toastify({
+      text: "Hi there👋🏽, Click here to view the copyright notice",
+      duration: 5000,
+      destination: "#copyright",
+      newWindow: false,
+      close: true,
+      gravity: "top",
+      position: "right",
+      backgroundColor: "linear-gradient(to right, #FF9800, #FBC02D)", // "linear-gradient(to right, #2196F3, #7E57C2)",
+      offset: {
+        y: 75,
+        x: 0,
+      },
+    }).showToast();
+  }
+
   // autoset active nav on scroll
   const sections = document.querySelectorAll(".mainsection");
   const navLi = document.querySelectorAll("nav .navbar-collapse ul li");
@@ -12,8 +30,6 @@ $(document).ready(function () {
         current = section.getAttribute("id");
       }
     });
-
-    console.log(current);
 
     navLi.forEach((li) => {
       li.classList.remove("nav-link-active");
@@ -48,17 +64,18 @@ $(document).ready(function () {
 
     Toastify({
       text: String($(this).data("toast-message")),
-      duration: 3000,
+      duration: Number($(this).data("toast-duration")) || 3000,
       destination: String($(this).data("toast-url")),
-      newWindow: String($(this).data("toast-new-window")) == "true" ? true : false,
+      newWindow:
+        String($(this).data("toast-new-window")) == "true" ? true : false,
       close: true,
       gravity: "top",
       position: "right",
       backgroundColor: toastColor,
       offset: {
-        y: 76,
-        x: 0
-      }
+        y: 75,
+        x: 0,
+      },
     }).showToast();
   });
 });
