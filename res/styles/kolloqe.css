@@ -82,6 +82,14 @@ kbd {
     scroll-margin-top: 90px;
 }
 
+.subsection {
+    scroll-margin-top: 106px;
+}
+
+.subsection a:hover {
+    background-color: #EEEEEE !important;
+}
+
 .containerfooter {
   background-color: #151515 !important;
   color: #CFD8DC !important;
@@ -1261,6 +1269,10 @@ input[type=checkbox] {
     color: #C62828 !important;
 }
 
+.material-light-red {
+    background-color: #FFCDD2 !important;
+}
+
 .material-yellow {
     background-color: #FFC107 !important;
 }
@@ -1269,12 +1281,20 @@ input[type=checkbox] {
     color: #FFC107 !important;
 }
 
+.material-light-yellow {
+    background-color: #FFF8E1 !important;
+}
+
 .material-orange {
     background-color: #FF9800 !important;
 }
 
 .material-orange-f {
     color: #FF9800 !important;
+}
+
+.material-light-orange {
+    background-color: #FFE0B2 !important;
 }
 
 .material-brown {
@@ -1293,6 +1313,10 @@ input[type=checkbox] {
     color: #43A047 !important;
 }
 
+.material-light-green {
+    background-color: #F0F4C3 !important;
+}
+
 .material-light-green-f {
     color: #F0F4C3 !important;
 }
@@ -1303,6 +1327,10 @@ input[type=checkbox] {
 
 .material-purple-f {
     color: #9C27B0 !important;
+}
+
+.material-light-purple {
+    background-color: #D1C4E9 !important;
 }
 
 .material-jet-black {
