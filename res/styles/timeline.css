@@ -1,0 +1,198 @@
+.timeline,
+.timeslotseries,
+.timeslot-content {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-container {
+  background-color: transparent;
+}
+
+.timeline {
+  background-color: transparent;
+  height: 500px;
+  width: 1000px;
+}
+
+.timeslotseries {
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.timeslotseries-connector-odd {
+  position: absolute;
+  border-left: 3px solid #4caf50 !important;
+  border-top: 3px solid #4caf50 !important;
+  border-bottom: 3px solid #4caf50 !important;
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  height: 157px;
+  width: 80px;
+  left: 10px;
+  bottom: 4px;
+}
+
+/* left */
+.timeslot-odd {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  height: 155px;
+  width: 180px;
+}
+
+.timeslot-content-odd {
+  border-left: 3px solid #90a4ae;
+  background-color: #455a64 !important;
+  border-top-right-radius: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.timeslot-dot-odd {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #C5E1A5;
+  bottom: 14px;
+  left: 14px;
+  z-index: 40;
+}
+
+.timeslot-connector-odd {
+  border-top: 3px solid #4caf50 !important;
+  position: relative;
+  bottom: 2px;
+  left: 0px;
+  width: 180px;
+}
+
+/* right */
+.timeslotseries-connector-even {
+  position: absolute;
+  border-right: 3px solid #4caf50 !important;
+  border-top: 3px solid #4caf50 !important;
+  border-bottom: 3px solid #4caf50 !important;
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+  height: 157px;
+  width: 40px;
+  right: 0px;
+  bottom: 4px;
+}
+
+.timeslot-even {
+  padding-right: 6px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  height: 155px;
+  width: 180px;
+}
+
+.timeslot-content-even {
+  border-right: 3px solid #90a4ae;
+  background-color: #455a64 !important;
+  border-top-left-radius: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.timeslot-dot-even {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #9CCC65;
+  bottom: 14px;
+  right: 0;
+  z-index: 40;
+}
+
+.timeslot-dot-last {
+  background-color: #8BC34A;
+}
+
+.timeslot-dot-finished-odd {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  bottom: 11px;
+  left: 8px;
+  z-index: 40;
+}
+
+.timeslot-dot-finished-even {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  bottom: 11px;
+  right: -4px;
+  z-index: 40;
+}
+
+.timeslot-dot-pending-odd {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  bottom: 11px;
+  left: 8px;
+  z-index: 40;
+}
+
+.timeslot-dot-pending-even {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  bottom: 11px;
+  right: -4px;
+  z-index: 40;
+}
+
+.timeslot-dot-current {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  bottom: 19px;
+  right: -19px;
+  z-index: 40;
+}
+
+.timeslot-connector-even {
+  border-top: 3px solid #4caf50 !important;
+  position: relative;
+  bottom: 2px;
+  right: 0px;
+  width: 180px;
+}
+
+.timeline-end-flag {
+  position: absolute;
+  z-index: 50;
+  width: 70px;
+  right: -8px;
+  bottom: 16px;
+}
+
+.timeslot-content-odd, .timeslot-content-even {
+  line-height: 0.9rem;
+}
+
+.invisible-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none; /* chrome */
+}
