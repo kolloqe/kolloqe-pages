@@ -21,6 +21,11 @@ a {
     color: #4CAF50 !important;
 }
 
+.kolloqe-feature-link {
+    text-decoration: none !important;
+    color: #03A9F4 !important;
+}
+
 kbd {
     font-family: 'Rubik', -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen",

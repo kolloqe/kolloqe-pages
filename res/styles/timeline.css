@@ -158,13 +158,23 @@
   z-index: 40;
 }
 
-.timeslot-dot-current {
+.timeslot-dot-current-right {
   position: absolute;
   height: 35px;
   width: 35px;
   border-radius: 50%;
   bottom: 19px;
   right: -19px;
+  z-index: 40;
+}
+
+.timeslot-dot-current-left {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  bottom: 19px;
+  left: 14px;
   z-index: 40;
 }
 
