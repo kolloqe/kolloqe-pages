@@ -1338,8 +1338,20 @@ input[type=checkbox] {
     background-color: #D1C4E9 !important;
 }
 
+.material-light-purple-f {
+    color: #D1C4E9 !important;
+}
+
+.material-mid-light-purple {
+    background-color: #9C27B0 !important;
+}
+
+.material-mid-light-purple-f {
+    color: #BA68C8 !important;
+}
+
 .material-jet-black {
-    background-color: #343434 !important;
+    background-color: #BA68C8 !important;
 }
 
 .material-jet-black-f {
