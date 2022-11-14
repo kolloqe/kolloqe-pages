@@ -79,10 +79,10 @@
   border-bottom: 3px solid #4caf50 !important;
   border-top-right-radius: 30px !important;
   border-bottom-right-radius: 30px !important;
-  height: 157px;
+  height: 9.85rem;
   width: 40px;
   right: 0px;
-  bottom: 4px;
+  bottom: 0.25rem;
 }
 
 .timeslot-even {
@@ -191,7 +191,7 @@
   z-index: 50;
   width: 70px;
   right: -8px;
-  bottom: 16px;
+  bottom: 17px;
 }
 
 .timeslot-content-odd, .timeslot-content-even {

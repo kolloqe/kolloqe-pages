@@ -662,19 +662,27 @@
                             <div class="fht-cell"></div>
                           </th>
                           <th data-field="sincd">
-                            <div class="th-inner sortable both">Sinhala Chatbot Dev</div>
+                            <div class="th-inner sortable both">
+                              Sinhala Chatbot Dev
+                            </div>
                             <div class="fht-cell"></div>
                           </th>
                           <th data-field="ests">
-                            <div class="th-inner sortable both">Embedded Sinhala typing support</div>
+                            <div class="th-inner sortable both">
+                              Embedded Sinhala typing support
+                            </div>
                             <div class="fht-cell"></div>
                           </th>
-                          <th  data-field="seat">
-                            <div class="th-inner sortable both">Sinhala Entity Annotation Tools</div>
+                          <th data-field="seat">
+                            <div class="th-inner sortable both">
+                              Sinhala Entity Annotation Tools
+                            </div>
                             <div class="fht-cell"></div>
                           </th>
                           <th data-field="npc">
-                            <div class="th-inner">NLU Pipeline Configuration</div>
+                            <div class="th-inner">
+                              NLU Pipeline Configuration
+                            </div>
                             <div class="fht-cell"></div>
                           </th>
                           <th data-field="xs">
@@ -729,11 +737,16 @@
                           <td>No specific tools</td>
                           <td>Supported (CLI-only)</td>
                           <td>Not Supported</td>
-                          <td>No</td>
+                          <td>Yes (CLI-only)</td>
                           <td>Cloud-based, On-premises</td>
                         </tr>
                         <tr data-index="3">
-                          <td>Kolloqe <p><span class="font-italic">(this platform)</span></p></td>
+                          <td>
+                            Kolloqe
+                            <p>
+                              <span class="font-italic">(this platform)</span>
+                            </p>
+                          </td>
                           <td>Supported</td>
                           <td>Supported both in UI and Chat Widget</td>
                           <td>Entity Suggestions, Auto-annotation</td>
@@ -859,14 +872,10 @@
                 /> -->
                   <span class="material-icons"> assistant </span>
                 </div>
-                <a href="https://reactjs.org/" target="_blank"
-                  ><h3 class="fs-6 material-off-white-f">
-                    Entity Suggestions
-                  </h3></a
-                >
+                <h3 class="fs-6 material-off-white-f">Entity Suggestions</h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  React was utilized as the primary frontend framework and the
-                  build files were integrated with the Flask backend seamlessly
+                  Kolloqe has a built-in entity annotating tool that can suggest
+                  entities based on previously-annotated entities.
                 </p>
               </div>
               <div class="feature col">
@@ -885,8 +894,9 @@
                 </div>
                 <h3 class="fs-6 material-off-white-f">Auto-annotating</h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  MUI React component library was utilized to develop Kolloqe
-                  developer console User Interfaces
+                  The annotating tool in Kolloqe also supports auto annotating
+                  all entities with the same base word all at once which saves
+                  tons of time taken to develop chatbots.
                 </p>
               </div>
               <div class="feature col">
@@ -907,9 +917,10 @@
                   Portable Knowledge Base
                 </h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  Socket.io was utilized to implement the Kolloqe chatwidget
-                  that can establish a socket connection with Rasa socket.io
-                  servers
+                  Entity annotation knowledge is persisted as a knowledge-base
+                  which can be exported and imported at the conveniene of the
+                  developers. This allows sharing entitiy annotating knowledge
+                  between various chatbot development projects.
                 </p>
               </div>
             </div>
@@ -943,9 +954,10 @@
                 </div>
                 <h3 class="fs-6">User-defined domain-specific Token Maps</h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  Docker was utilized to containerize both Kolloqe and Rasa
-                  conversational AIs created using Kolloqe. Docker-compose was
-                  used to integrate the docker containers
+                  Token mapping in Kolloqe allows domain-specific equivalent
+                  tokens to be mapped to a frequently used base word. Maps can
+                  consist of words even from outside the training dataset for
+                  future proof domain maps.
                 </p>
               </div>
               <div class="feature col">
@@ -964,8 +976,9 @@
                 </div>
                 <h3 class="fs-6">Dynamic OOV Handling</h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  NGINX was utilized to implement load balancing and secure
-                  reverse-proxies required for Kolloqe deployment
+                  Token maps allow chatbot models to effectively handle OOV
+                  tokens by mapping OOV tokens to the base word defined. In
+                  Kolloqe, this process happens dynamically at inference time.
                 </p>
               </div>
             </div>
@@ -982,7 +995,9 @@
                     <span class="fw-bold">449%</span> Efficient
                   </span>
                   <br />
-                  NLU pipeline and policy configuration
+                  Kolloqe is an intuitive GUI-based no-code chatbot development
+                  framework that requires zero-framework specific expertise in
+                  any chatbot development framework.
                 </p>
               </div>
 
@@ -1004,8 +1019,9 @@
                   NLU Pipeline and Policy Configuration
                 </h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  GitLab was utilized as the primary source-code management tool
-                  throughout the research duration
+                  Kolloqe offers an easy NLU pipeline configuration mechanism
+                  using GUI components that ensures there are no component
+                  ordering or syntax related errors.
                 </p>
               </div>
               <div class="feature col">
@@ -1026,8 +1042,10 @@
                   Trained Chatbot Model Management & Evaluation
                 </h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  GitHub was utilized for the source-code and release management
-                  of open-source tools developed within the research duration
+                  All trained chatbot models are visible in a single view in
+                  Kolloqe and easily evaluated using automatically generated
+                  training and testing accuracy and loss curves attached with
+                  each chatbot model.
                 </p>
               </div>
               <div class="feature col">
@@ -1046,20 +1064,13 @@
                 </div>
                 <h3 class="fs-6">Learning-curve Insights</h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  Four modular Python packages were released to the Python
-                  Package Index as open-source tools:
-                  <a href="https://pypi.org/project/seetm/" target="_blank"
-                    ><code class="material-yellow-f">SEETM</code></a
-                  >,
-                  <a href="https://pypi.org/project/siena/" target="_blank"
-                    ><code class="material-yellow-f">SIENA</code></a
-                  >,
-                  <a href="https://pypi.org/project/rasac/" target="_blank"
-                    ><code class="material-yellow-f">RASAC</code></a
-                  >, and
-                  <a href="https://pypi.org/project/dime-xai/" target="_blank"
-                    ><code class="material-yellow-f">DIME-XAI</code></a
-                  >
+                  Each model has a fixed number of training epochs at the
+                  beginning and ML expertise are required to figure out what is
+                  the best epoch to stop the training. With Kolloqe, any
+                  non-expert can gain insights on required number of epochs
+                  using the loss-curve-based best epoch insights that are being
+                  generated automatically when the total number of initial
+                  epochs are higher than 50.
                 </p>
               </div>
             </div>
@@ -1096,9 +1107,12 @@
                 </div>
                 <h3 class="fs-6">Chatbot Model Explanations</h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  Snyk was employed to continuously test for security
-                  vulnerabilities and dependancy vulnerabilities in open-source
-                  packages released to NPM and PyPI
+                  DIME XAI technique built into Kolloqe enables XAI for chatbot
+                  models. This is a feature-importance-based XAI approach that
+                  visualizes both local and global feature importance scores for
+                  any specified query. XAI in Kolloqe provides the developers
+                  with a way to test the reliability of the chatbot models prior
+                  to production level deployments.
                 </p>
               </div>
               <div class="feature col">
@@ -1117,8 +1131,12 @@
                 </div>
                 <h3 class="fs-6">Portable Explanation Objects</h3>
                 <p class="fs14 m-0 p-0 material-smoke-f">
-                  NGINX was utilized to implement load balancing and secure
-                  reverse-proxies required for Kolloqe deployment
+                  In addition to XAI visualizations, Kolloqe also offers these
+                  visualizations as portable explanation files, eliminating the
+                  requirement for recursively generating the same explanation,
+                  which is time consuming. Any chatbot developer can download
+                  and share the explanation objects and quickly take a peak
+                  using the Kolloqe dev console.
                 </p>
               </div>
             </div>
@@ -1209,7 +1227,7 @@
                     <p class="m-0 p-0">
                       <span class="fs14">Proposal Presentation</span>
                       <br />
-                      <code class="fs14 material-blue-f">01-Feb-2022</code>
+                      <code class="fs14 material-blue-f">02-Feb-2022</code>
                     </p>
                   </div>
                   <!-- <div class="timeslot-dot-odd"></div> -->
@@ -1227,9 +1245,9 @@
                 <div class="timeslot-even col order-5">
                   <div class="timeslot-content-even">
                     <p class="m-0 p-0">
-                      <span class="fs14">Progress Presentation I</span>
+                      <span class="fs14">Status Document I</span>
                       <br />
-                      <code class="fs14 material-blue-f">11-May-2022</code>
+                      <code class="fs14 material-blue-f">13-May-2022</code>
                     </p>
                   </div>
                   <!-- <div class="timeslot-dot-even"></div> -->
@@ -1242,9 +1260,9 @@
                 <div class="timeslot-even col order-4">
                   <div class="timeslot-content-even">
                     <p class="m-0 p-0">
-                      <span class="fs14">Status Document I</span>
+                      <span class="fs14">Progress Presentation I</span>
                       <br />
-                      <code class="fs14 material-blue-f">13-May-2022</code>
+                      <code class="fs14 material-blue-f">26-May-2022</code>
                     </p>
                   </div>
                   <!-- <div class="timeslot-dot-even"></div> -->
@@ -1259,7 +1277,7 @@
                     <p class="m-0 p-0">
                       <span class="fs14">Research Paper</span>
                       <br />
-                      <code class="fs14 material-blue-f">30-June-2022</code>
+                      <code class="fs14 material-blue-f">04-Sep-2022</code>
                     </p>
                   </div>
                   <!-- <div class="timeslot-dot-even"></div> -->
@@ -1274,7 +1292,7 @@
                     <p class="m-0 p-0">
                       <span class="fs14">Progress Presentation II</span>
                       <br />
-                      <code class="fs14 material-blue-f">10-Oct-2022</code>
+                      <code class="fs14 material-blue-f">12-Oct-2022</code>
                     </p>
                   </div>
                   <!-- <div class="timeslot-dot-even"></div> -->
@@ -1777,6 +1795,35 @@
             </p>
             <div class="list-group w-auto mt-3">
               <a
+                href="https://github.com/kolloqe/kolloqe-pages-resources/raw/main/2_registration/topic_assessment_form_2022_056.pdf"
+                role="button"
+                class="list-group-item list-group-item-action d-flex gap-3 py-3 toastTrigger text-dark material-light-yellow"
+                data-toast-message="Download is in progress..."
+                data-toast-url=""
+                data-toast-new-window="true"
+                data-toast-type="success"
+                aria-current="true"
+              >
+                <img
+                  src="res\images\icons\taf.png"
+                  alt="twbs"
+                  width="40"
+                  height="40"
+                  focusable="false"
+                  draggable="false"
+                  class="flex-shrink-0 pe-none user-select-none"
+                />
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Topic Assessment Form (Approved)</h6>
+                    <p class="mb-0 opacity-75 text-muted">
+                      Click here to download the document
+                    </p>
+                  </div>
+                  <small class="opacity-50 text-nowrap">28-Dec-2021</small>
+                </div>
+              </a>
+              <a
                 href="https://github.com/kolloqe/kolloqe-pages-resources/raw/main/2_registration/project_charter_2022_056.pdf"
                 role="button"
                 class="list-group-item list-group-item-action d-flex gap-3 py-3 toastTrigger text-dark material-light-yellow"
@@ -1802,7 +1849,7 @@
                       Click here to download the document
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">12-Jan-2022</small>
                 </div>
               </a>
               <a
@@ -1831,36 +1878,7 @@
                       Click here to download the document
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
-                </div>
-              </a>
-              <a
-                href="https://github.com/kolloqe/kolloqe-pages-resources/raw/main/2_registration/topic_assessment_form_2022_056.pdf"
-                role="button"
-                class="list-group-item list-group-item-action d-flex gap-3 py-3 toastTrigger text-dark material-light-yellow"
-                data-toast-message="Download is in progress..."
-                data-toast-url=""
-                data-toast-new-window="true"
-                data-toast-type="success"
-                aria-current="true"
-              >
-                <img
-                  src="res\images\icons\taf.png"
-                  alt="twbs"
-                  width="40"
-                  height="40"
-                  focusable="false"
-                  draggable="false"
-                  class="flex-shrink-0 pe-none user-select-none"
-                />
-                <div class="d-flex gap-2 w-100 justify-content-between">
-                  <div>
-                    <h6 class="mb-0">Topic Assessment Form (Approved)</h6>
-                    <p class="mb-0 opacity-75 text-muted">
-                      Click here to download the document
-                    </p>
-                  </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">12-Jan-2022</small>
                 </div>
               </a>
             </div>
@@ -1897,7 +1915,7 @@
                       Individual proposal reports are available here
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">24-Jan-2022</small>
                 </div>
               </a>
               <a
@@ -1926,7 +1944,7 @@
                       Click here to download the slides
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">02-Feb-2022</small>
                 </div>
               </a>
             </div>
@@ -1965,7 +1983,7 @@
                       Individual status documents are available here
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">13-May-2022</small>
                 </div>
               </a>
             </div>
@@ -2004,7 +2022,7 @@
                       Click here to download the slides
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">26-May-2022</small>
                 </div>
               </a>
             </div>
@@ -2044,7 +2062,7 @@
                       paper without a valid consent from the oroginal authors
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">04-Sep-2022</small>
                 </div>
               </a>
             </div>
@@ -2083,7 +2101,7 @@
                       Click here to download the slides
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">12-Oct-2022</small>
                 </div>
               </a>
               <a
@@ -2112,7 +2130,7 @@
                       4'x3' Research poster is available here
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">??-??-2022</small>
+                  <small class="opacity-50 text-nowrap">09-Oct-2022</small>
                 </div>
               </a>
             </div>
@@ -2151,7 +2169,7 @@
                       Both group and individual final reports are available here
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">09-10-2022</small>
+                  <small class="opacity-50 text-nowrap">09-Oct-2022</small>
                 </div>
               </a>
               <a
@@ -2179,7 +2197,7 @@
                       Final presentation will be uploaded soon!
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">Not Available</small>
+                  <small class="opacity-50 text-nowrap">13-Nov-2022</small>
                 </div>
               </a>
             </div>
@@ -2217,7 +2235,7 @@
                       Status documents II will be uploaded soon!
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">Not Available</small>
+                  <small class="opacity-50 text-nowrap">14-Nov-2022</small>
                 </div>
               </a>
             </div>
@@ -2253,7 +2271,7 @@
                       Log books will be uploaded soon!
                     </p>
                   </div>
-                  <small class="opacity-50 text-nowrap">Not Available</small>
+                  <small class="opacity-50 text-nowrap">14-Nov-2022</small>
                 </div>
               </a>
             </div>
