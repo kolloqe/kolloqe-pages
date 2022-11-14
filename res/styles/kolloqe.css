@@ -1290,6 +1290,10 @@ input[type=checkbox] {
     background-color: #FFF8E1 !important;
 }
 
+.material-light-yellow-f {
+    color: #FFECB3 !important;
+}
+
 .material-orange {
     background-color: #FF9800 !important;
 }

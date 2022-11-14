@@ -67,6 +67,7 @@
     <link rel="stylesheet" href="res\styles\toastify.min.css" />
     <link rel="stylesheet" href="res\styles\timeline.css" />
     <link rel="stylesheet" href="res\font\materialicons.css" />
+    <link rel="stylesheet" href="res\styles\fresh-bootstrap-table.css" />
     rel="stylesheet" />
     <title>Kolloqe Project Pages</title>
   </head>
@@ -631,6 +632,123 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="mb-2">
+              <p class="h5 material-yellow-f fw-bold mt-4 mb-2">Researh Gap</p>
+              <p class="m-0 p-0 material-light-yellow-f">
+                Following table comprises the identified research gap through a
+                roer evaluation of existing conversational AI develoment
+                frameworks and platforms.
+              </p>
+            </div>
+            <div class="fresh-table full-color-orange">
+              <div class="bootstrap-table bootstrap3">
+                <div class="fixed-table-container" style="padding-bottom: 0px">
+                  <div class="fixed-table-header" style="display: none">
+                    <table></table>
+                  </div>
+                  <div class="fixed-table-body">
+                    <table
+                      id="fresh-table"
+                      class="table table-hover table-striped"
+                    >
+                      <thead>
+                        <tr>
+                          <th data-field="res">
+                            <div class="th-inner">Platform / Research</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                          <th data-field="sincd">
+                            <div class="th-inner sortable both">Sinhala Chatbot Dev</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                          <th data-field="ests">
+                            <div class="th-inner sortable both">Embedded Sinhala typing support</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                          <th  data-field="seat">
+                            <div class="th-inner sortable both">Sinhala Entity Annotation Tools</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                          <th data-field="npc">
+                            <div class="th-inner">NLU Pipeline Configuration</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                          <th data-field="xs">
+                            <div class="th-inner">XAI Support</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                          <th data-field="nc">
+                            <div class="th-inner">No-Code</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                          <th data-field="dd">
+                            <div class="th-inner">Deloyment</div>
+                            <div class="fht-cell"></div>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr data-index="0">
+                          <td>Google Dialogflow</td>
+                          <td>Supported</td>
+                          <td>Not Supported</td>
+                          <td>No specific tools</td>
+                          <td>Not Supported</td>
+                          <td>Not Supported</td>
+                          <td>Yes</td>
+                          <td>Cloud-based</td>
+                        </tr>
+                        <tr data-index="1">
+                          <td>Amazon Lex</td>
+                          <td>Not Supported</td>
+                          <td>Not Supported</td>
+                          <td>No specific tools</td>
+                          <td>Not Supported</td>
+                          <td>Not Supported</td>
+                          <td>Yes</td>
+                          <td>Cloud-based</td>
+                        </tr>
+                        <tr data-index="2">
+                          <td>Microsoft LUIS</td>
+                          <td>Not Supported</td>
+                          <td>Not Supported</td>
+                          <td>No specific tools</td>
+                          <td>Not Supported</td>
+                          <td>Not Supported</td>
+                          <td>Yes</td>
+                          <td>Cloud-based</td>
+                        </tr>
+                        <tr data-index="3">
+                          <td>Rasa Open Source</td>
+                          <td>Supported</td>
+                          <td>Not Supported</td>
+                          <td>No specific tools</td>
+                          <td>Supported (CLI-only)</td>
+                          <td>Not Supported</td>
+                          <td>No</td>
+                          <td>Cloud-based, On-premises</td>
+                        </tr>
+                        <tr data-index="3">
+                          <td>Kolloqe <p><span class="font-italic">(this platform)</span></p></td>
+                          <td>Supported</td>
+                          <td>Supported both in UI and Chat Widget</td>
+                          <td>Entity Suggestions, Auto-annotation</td>
+                          <td>Supported</td>
+                          <td>Supported</td>
+                          <td>Yes</td>
+                          <td>Cloud-based, On-premises</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="fixed-table-footer"></div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
             </div>
           </div>
         </div>
